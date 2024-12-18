@@ -1,0 +1,32 @@
+.overtimeWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85svb
+}
+.monthData {
+    height: 100%;
+    width: 100%;
+}
+
+.monthPicker {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80svb;
+    font-family: Helvetica;
+    font-weight: 400;
+}
+
+.month {
+    border: solid #393E46 1px;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+}
+
+.month:hover {
+    border: solid #00ADB5 1.5px;
+    border-radius: 8px;
+    color: #00ADB5;
+    background-color: #393E46;
+}
